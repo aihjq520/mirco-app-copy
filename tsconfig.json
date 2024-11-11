@@ -1,0 +1,26 @@
+{
+    "include": [
+      "./**/*.ts",
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ],
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "resolveJsonModule": true,
+      "allowJs": true,
+      "module": "esnext",
+      "target": "esnext",
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "rootDir": "../../../",
+      "sourceMap": true,
+      "pretty": true,
+      "jsx": "preserve",
+      "jsxFactory": "VueTsxSupport",
+      "lib": ["es2018", "dom"]
+    }
+  }
